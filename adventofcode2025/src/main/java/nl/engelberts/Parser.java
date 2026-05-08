@@ -49,6 +49,14 @@ public class Parser {
         }
     }
 
+    String[][] getDataLinesAs2DArray() {
+        String[][] result = new String[dataLines.length][];
+        for (int i = 0; i < dataLines.length; i++) {
+            result[i] = dataLines[i].split("");
+        }
+        return result;
+    }
+
     public String getFilename() {
         return filename;
     }
