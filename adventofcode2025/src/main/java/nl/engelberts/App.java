@@ -5,8 +5,8 @@ package nl.engelberts;
  */
 public class App {
     public static void main(String[] args) {
-        Day07 current_day = new Day07("adventofcode2025/data/real07.txt");
+        Day07 current_day = new Day07("data/test07.txt");
         System.out.println("Part A: " + current_day.resultA());
-        //System.out.println("Part B: " + current_day.resultB());
+        System.out.println("Part B: " + current_day.resultB());
     }
 }
